@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Item</title>
+</head>
+<body>
+    <form name="addItem" method="post" action="addItem.jsp">
+        <table style='border: 2px solid black'>
+            <tr>
+                <td>
+                    Nama Barang : <input name="name" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Harga Barang : <input name="price" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Id Kategori Barang : <input name="categoryId" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="tambah" type="submit" value="Tambahkan">
+
+                    <a href="http://localhost:8080/JSPJDBCMySQL">
+                        <button>Kembali</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
